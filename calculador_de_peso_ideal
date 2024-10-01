@@ -1,0 +1,9 @@
+ Calculador de Peso Ideal
+
+Este projeto consiste em um programa que calcula o peso ideal de uma pessoa com base em seu sexo, idade e altura. O usuário é solicitado a fornecer seu nome, sexo, idade e altura, e o programa utiliza fórmulas específicas para calcular e exibir o peso ideal.
+
+Funcionalidades:
+
+O usuário insere seu nome, sexo, idade e altura.
+O programa calcula o peso ideal com base nas informações fornecidas.
+Exibe o nome, altura e peso ideal ao final.
