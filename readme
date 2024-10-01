@@ -1,0 +1,15 @@
+# Calculador de Peso Ideal
+
+Este é um programa que calcula o peso ideal de uma pessoa com base em seu sexo, idade e altura. É uma aplicação de console que demonstra interações com o usuário e uso de condicionais.
+
+## Funcionalidades
+
+- Permite ao usuário inserir seu nome, sexo, idade e altura.
+- Calcula o peso ideal com base nas informações fornecidas.
+- Exibe o nome, altura e peso ideal.
+
+## Como Usar
+
+1. Clone o repositório:
+   bash
+   git clone https://github.com/seu_usuario/seu_repositorio.git
