@@ -1,0 +1,86 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		caracter sexo
+		inteiro idade
+		real altura,peso=0
+		cadeia nome
+		
+
+		escreva("\n Qual seu nome ?  ")
+		leia(nome)
+		escreva("\n Qual seu sexo ?  M=masculino/F=feminino. ")
+		leia(sexo)
+		escreva("\n Qual sua idade ?  ")
+		leia(idade)
+		escreva("\n Qual sua altura ?  ")
+		leia(altura)
+		limpa()
+		escolha(sexo)
+		{
+			caso('M'):
+		
+		
+		se(idade<=20 e altura>1.70)
+		{
+			peso=72.7*altura-58
+		}
+		senao
+		se(idade>=21 e idade<=39 e altura>1.70)
+		{
+			peso=72.7*altura-53
+		}
+		senao
+		se(idade>=40 e altura>1.70)
+		{
+			peso=72.7-45
+		}
+		senao
+		se(idade<=40 e altura<=1.70)
+		{
+			peso=72.7*altura-50
+		}
+		senao
+		se(idade>40 e altura<=1.70)
+		{
+			peso=72.7*altura-58
+		}	
+		pare
+		}
+			escolha(sexo)
+			{
+				caso('F'):
+			
+	
+			
+
+			se(idade<35 e altura<=1.50)
+			{
+				peso=62.1*altura-49
+			}
+			senao
+			se(idade>=35 e altura<=1.50)
+			{
+				peso=62.1-45
+			}
+			senao
+			se(idade>1 e altura>1.50)
+			{
+				peso=62.1*altura-44.7
+			}
+			senao
+			{
+				escreva("Opção inválida")
+				
+			}
+			pare
+			}
+			
+		
+			escreva("\n NOME : ",nome)
+			escreva("\n Sua altura é : ",altura)
+			escreva("\n Seu peso ideal é : ",peso)
+	}
+}
